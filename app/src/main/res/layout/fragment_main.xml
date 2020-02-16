@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".mainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mainBtnIngTrk"
+                style="@style/MainMenuButton"
+                android:text="@string/main_ingilizce_nturkce" />
+
+            <Button
+                android:id="@+id/mainBtnTrkIng"
+                style="@style/MainMenuButton"
+                android:text="@string/main_trk_ing" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mainBtnEs"
+                style="@style/MainMenuButton"
+                android:text="@string/main_ingEs" />
+
+            <Button
+                android:id="@+id/mainBtnZit"
+                style="@style/MainMenuButton"
+                android:text="@string/main_ingZit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mainBtnPhr"
+                style="@style/MainMenuButton"
+                android:text="@string/main_ingPhre" />
+
+            <Button
+                android:id="@+id/mainBtnConj"
+                style="@style/MainMenuButton"
+                android:text="@string/main_ingConj" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mainBtnMust"
+                style="@style/MainMenuButton"
+                android:layout_width="258dp"
+                android:layout_height="43dp"
+                android:text="@string/main_mustKnow" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
